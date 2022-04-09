@@ -14,4 +14,6 @@ npm i @material-ui/icons
 With npm present, npm start inside the front-end directory should at least execute the React app
 
 ---Back-end---
+
 Requires setting up the DB and updating the MongoDB url in server.js inside backend folder
+The idea is that you run two servers - one for backend (MongoDB/Express) and one for frontend (React), and two cross talk via axios
